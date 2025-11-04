@@ -22,25 +22,25 @@ npm run dev
 ## Project Structure
 
 ```
-frontend
-+-- index.html
-+-- package.json
-+-- README.md
-+-- src
-¦   +-- App.jsx
-¦   +-- context
-¦   ¦   +-- AuthContext.jsx
-¦   +-- main.jsx
-¦   +-- pages
-¦   ¦   +-- Login.jsx
-¦   ¦   +-- UserDetail.jsx
-¦   ¦   +-- Users.jsx
-¦   +-- services
-¦   ¦   +-- client.js
-¦   ¦   +-- endpoints.js
-¦   +-- styles.css
-+-- vite.config.js
-+-- .gitignore
+frontend/
+  index.html
+  package.json
+  README.md
+  src/
+    App.jsx
+    context/
+      AuthContext.jsx
+    main.jsx
+    pages/
+      Login.jsx
+      UserDetail.jsx
+      Users.jsx
+    services/
+      client.js
+      endpoints.js
+    styles.css
+  vite.config.js
+  .gitignore
 ```
 
 ## Styling
